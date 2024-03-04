@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "colors": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1"
@@ -38,6 +39,6 @@
     "build": "webpack --mode=production"
   },
   "bin": {
-    "create-boilerplate": "./generate-app.js"
+    "create-react-toolbox": "./generate-app.js"
   }
 }
