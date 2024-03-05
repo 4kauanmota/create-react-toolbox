@@ -1,6 +1,6 @@
 {
   "name": "init-react-toolbox",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "",
   "bin": {
     "init-react-toolbox": "bin/start.js"
@@ -16,9 +16,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/4kauanmota/create-react-toolbox/issues"
+    "url": "https://github.com/4kauanmota/init-react-toolbox/issues"
   },
-  "homepage": "https://github.com/4kauanmota/create-react-toolbox#readme",
+  "homepage": "https://github.com/4kauanmota/init-react-toolbox#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
