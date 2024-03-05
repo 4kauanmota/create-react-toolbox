@@ -1,9 +1,9 @@
 {
-  "name": "init-react-toolbox",
-  "version": "0.1.5",
+  "name": "create-react-toolkit",
+  "version": "0.2.0",
   "description": "",
   "bin": {
-    "init-react-toolbox": "bin/start.js"
+    "create-react-toolkit": "bin/start.js"
   },
   "scripts": {
     "start": "webpack-dev-server",
@@ -11,15 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/4kauanmota/init-react-toolbox.git"
+    "url": "git+https://github.com/4kauanmota/create-react-toolkit.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/4kauanmota/init-react-toolbox/issues"
+    "url": "https://github.com/4kauanmota/create-react-toolkit/issues"
   },
-  "homepage": "https://github.com/4kauanmota/init-react-toolbox#readme",
+  "homepage": "https://github.com/4kauanmota/create-react-toolkit#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1"
