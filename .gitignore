@@ -26,8 +26,6 @@ dist
 #project temp files
 *.scss.d.ts
 
-bin
-
 # yarn
 .yarn/*
 !.yarn/cache

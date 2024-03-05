@@ -1,6 +1,24 @@
 {
   "name": "init-react-toolbox",
-  "packageManager": "yarn@4.1.1",
+  "version": "0.1.4",
+  "description": "",
+  "bin": {
+    "init-react-toolbox": "bin/start.js"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4kauanmota/init-react-toolbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4kauanmota/create-react-toolbox/issues"
+  },
+  "homepage": "https://github.com/4kauanmota/create-react-toolbox#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -28,12 +46,5 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
-  },
-  "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack --mode=production"
-  },
-  "bin": {
-    "create-react-toolbox": "./app.js"
   }
 }

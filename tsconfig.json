@@ -12,4 +12,5 @@
     "declarationDir": "./types",
     "resolveJsonModule": true,
   },
+  "include": ["src"]
 }
