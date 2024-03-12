@@ -10,6 +10,7 @@ const exec = util.promisify(require("child_process").exec);
 async function runCmd(command, color) {
   try {
     const { stdout, stderr } = await exec(command);
+
     const coloredStdout =
       color && stdout
         ? colors[color](
@@ -26,10 +27,8 @@ async function runCmd(command, color) {
     if (coloredStdout) console.log(coloredStdout);
 
     if (coloredStderr) console.log(coloredStderr);
-  } catch {
-    (error) => {
-      console.log(`${error}`.red);
-    };
+  } catch (error) {
+    console.log(`${error}`.red);
   }
 }
 
@@ -64,15 +63,13 @@ try {
 
 async function main() {
   try {
-    console.clear();
-
     console.log();
     console.log(" Cloning boilrplate... ".bgCyan);
     console.log(
       `
     *  git clone --depth 1 ${git_repo} ${appPath}\n`.cyan
     );
-    await runCmd(`git clone --depth 1 ${git_repo} ${appPath}`, "cyan");
+    await runCmd(`git clone --depth 1 ${git_repo} \"${appPath}\"`, "cyan");
 
     process.chdir(appPath);
 
@@ -91,7 +88,8 @@ async function main() {
     fs.rmSync(path.join(appPath, "bin"), { recursive: true });
     console.log(
       `
-    *  Removing project bin\n`.yellow
+    *  Removing project bin\n
+    *  Removing .git`.yellow
     );
 
     console.log();
