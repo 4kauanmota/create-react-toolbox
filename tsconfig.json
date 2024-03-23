@@ -11,5 +11,6 @@
     "declaration": true,
     "declarationDir": "./types",
     "resolveJsonModule": true,
+    "types": ["node", "jest", "@testing-library/jest-dom"],
   }
 }

@@ -1,10 +1,15 @@
+import { useNavigate } from "react-router-dom";
+
 import styles from "./Error404.module.scss";
-import GoBack_Button from "../components/atoms/GoBack_Button";
 
 const Error404 = () => {
+  const navigate = useNavigate();
+
   return (
     <>
-      <GoBack_Button />
+      <button className={styles.goBack} onClick={() => navigate(-1)}>
+        Go back
+      </button>
 
       <div className={styles.error404}>
         <h1>Error 404</h1>
