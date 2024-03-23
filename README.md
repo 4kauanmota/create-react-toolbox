@@ -2,7 +2,7 @@
 
 # 📄 **Informations**
 
-**This is a project created to improve my knowledge in web configurations. It's a create-react-app like, but already configured with modern technologies (more details below).**
+**This is a project created to improve my knowledge in web configurations. It's a like create-react-app, but already configured with modern technologies (more details below).**
 
 ---
 
@@ -15,8 +15,6 @@
   - Babel
   - Modules
 
----
-
 # 💻 **Technologies**
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
@@ -28,8 +26,6 @@
 - [JSX](https://pt-br.legacy.reactjs.org/docs/introducing-jsx.html)
 - [WEBPACK](https://webpack.js.org/)
 - [VISUAL STUDIO CODE](https://code.visualstudio.com/)
-
----
 
 # ⚙️ **How to run**
 
@@ -56,8 +52,6 @@ Instead of my-app you can enter the name that you want for your project.
 
 After the command has finished executing, your project will be created and you can enter the project folder and start using it :)
 
----
-
 # 📱 **Scripts**
 
 To start the dev server and see how your site is looking:
@@ -77,8 +71,6 @@ To run your test files:
 ```
 npm test
 ```
-
----
 
 # 📝 **Author**
 
