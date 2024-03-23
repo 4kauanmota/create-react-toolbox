@@ -86,9 +86,11 @@ async function main() {
     await runCmd("npx rimraf ./.git", "yellow");
 
     fs.rmSync(path.join(appPath, "bin"), { recursive: true });
+    fs.rmSync(path.join(appPath, "README.md"));
     console.log(
       `
     *  Removing project bin\n
+    *  Removing project README.md\n
     *  Removing .git`.yellow
     );
 

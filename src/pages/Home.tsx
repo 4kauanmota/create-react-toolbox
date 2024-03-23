@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Home.module.scss";
 
 const Home = () => {
@@ -6,7 +7,7 @@ const Home = () => {
       <h1>Home</h1>
 
       <span>
-        <a href="/anything">Error 404 page</a>
+        <Link to="*">Error 404 page</Link>
       </span>
     </div>
   );
