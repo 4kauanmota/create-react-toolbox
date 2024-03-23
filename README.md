@@ -42,7 +42,8 @@ This is a project created to improve my knowledge in web configurations. It's a 
 ### Codes
 
 - `npx create-react-toolkit@latest my-app`
-  |
+
+|
 
 ### 1. Creating project
 
