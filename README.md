@@ -4,7 +4,7 @@
 
 **This is a project created to improve my knowledge in web configurations. It's a like create-react-app, but already configured with modern technologies (more details below).**
 
----
+<br><br>
 
 # ✨ **Features**
 
@@ -14,6 +14,8 @@
   - Jest
   - Babel
   - Modules
+
+<br><br>
 
 # 💻 **Technologies**
 
@@ -52,6 +54,8 @@ Instead of my-app you can enter the name that you want for your project.
 
 After the command has finished executing, your project will be created and you can enter the project folder and start using it :)
 
+<br><br>
+
 # 📱 **Scripts**
 
 To start the dev server and see how your site is looking:
@@ -71,6 +75,8 @@ To run your test files:
 ```
 npm test
 ```
+
+<br><br>
 
 # 📝 **Author**
 
