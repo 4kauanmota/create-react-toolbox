@@ -50,9 +50,9 @@ You will need to open the terminal in the folder where you want to create the pr
 npx create-react-toolkit@latest my-app
 ```
 
-Instead of my-app you can enter the name that you want for your project.
-
 After the command has finished executing, your project will be created and you can enter the project folder and start using it :)
+
+PS: Instead of **my-app** you can enter the name that you want for your project.
 
 <br>
 
@@ -64,11 +64,15 @@ To start the dev server and see how your site is looking:
 npm start
 ```
 
+|
+
 To build the entire projet in the form that will be sent to the deploy:
 
 ```
 npm build
 ```
+
+|
 
 To run your test files:
 
