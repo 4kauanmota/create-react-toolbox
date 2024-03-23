@@ -40,11 +40,9 @@
 
 - `npx create-react-toolkit@latest my-app`
 
-<br>
+### 1. Creating project
 
-### Creating project
-
-First you will need to open the terminal in the folder where you want to create the project, and then, you paste this code:
+You will need to open the terminal in the folder where you want to create the project, and then, you paste this code:
 
 ```
 npx create-react-toolkit@latest my-app
