@@ -4,7 +4,7 @@
 
 **This is a project created to improve my knowledge in web configurations. It's a like create-react-app, but already configured with modern technologies (more details below).**
 
-<br><br>
+<br>
 
 # ✨ **Features**
 
@@ -15,7 +15,7 @@
   - Babel
   - Modules
 
-<br><br>
+<br>
 
 # 💻 **Technologies**
 
@@ -28,6 +28,8 @@
 - [JSX](https://pt-br.legacy.reactjs.org/docs/introducing-jsx.html)
 - [WEBPACK](https://webpack.js.org/)
 - [VISUAL STUDIO CODE](https://code.visualstudio.com/)
+
+<br>
 
 # ⚙️ **How to run**
 
@@ -52,7 +54,7 @@ Instead of my-app you can enter the name that you want for your project.
 
 After the command has finished executing, your project will be created and you can enter the project folder and start using it :)
 
-<br><br>
+<br>
 
 # 📱 **Scripts**
 
@@ -74,7 +76,7 @@ To run your test files:
 npm test
 ```
 
-<br><br>
+<br>
 
 # 📝 **Author**
 
