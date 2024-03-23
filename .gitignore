@@ -22,6 +22,7 @@ yarn-error.log*
 
 #project folders
 dist
+types
 
 #project temp files
 *.scss.d.ts

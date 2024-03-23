@@ -72,7 +72,7 @@ npm start
 To build the entire projet in the form that will be sent to the deploy:
 
 ```
-npm build
+npm run build
 ```
 
 |
