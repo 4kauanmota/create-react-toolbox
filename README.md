@@ -2,18 +2,19 @@
 
 # 📄 **Informations**
 
-**This is a project created to improve my knowledge in web configurations. It's a like create-react-app, but already configured with modern technologies (more details below).**
+This is a project created to improve my knowledge in web configurations. It's a like create-react-app, but already configured with modern technologies (more details below).
 
 <br>
 
 # ✨ **Features**
 
-- Configured for use:
-  - Typescript
-  - Sass
-  - Jest
-  - Babel
-  - Modules
+**Configured for use:**
+
+- Typescript
+- Sass
+- Jest
+- Babel
+- Modules
 
 <br>
 
@@ -41,6 +42,7 @@
 ### Codes
 
 - `npx create-react-toolkit@latest my-app`
+  |
 
 ### 1. Creating project
 
