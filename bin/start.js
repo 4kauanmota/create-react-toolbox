@@ -91,7 +91,7 @@ async function main() {
       `
     *  Removing project bin\n
     *  Removing project README.md\n
-    *  Removing .git`.yellow
+    *  Removing .git\n`.yellow
     );
 
     console.log();

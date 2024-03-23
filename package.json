@@ -1,6 +1,6 @@
 {
   "name": "create-react-toolkit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "bin": {
     "create-react-toolkit": "bin/start.js"
