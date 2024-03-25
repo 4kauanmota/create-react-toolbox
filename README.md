@@ -14,6 +14,7 @@ This is a project created to improve my knowledge in web configurations. It's a 
 - Sass
 - Jest
 - Babel
+- React Router Dom
 - Modules
 
 <br>
@@ -24,6 +25,7 @@ This is a project created to improve my knowledge in web configurations. It's a 
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JAVASCRIPT](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [TYPESCRIPT](https://www.typescriptlang.org/)
+- [JEST](https://jestjs.io/)
 - [NPM](https://www.npmjs.com/)
 - [REACT](https://react.dev/)
 - [JSX](https://pt-br.legacy.reactjs.org/docs/introducing-jsx.html)
